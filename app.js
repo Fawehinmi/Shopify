@@ -11,8 +11,7 @@ let checkedSections = ["customize-store"];
 // --------Close Trail Section----------
 
 document.querySelector(".cancel-btn").addEventListener("click", (e) => {
-  console.log("clciked");
-  document.querySelector(".trial").classList.add("d-none");
+  document.querySelector(".trial").classList.add("d-hidden");
 });
 
 document.querySelector(".profile-name-btn").addEventListener("click", (e) => {
